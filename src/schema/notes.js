@@ -10,14 +10,14 @@ export const noteSchema = z.object({
 
    title: z
     .string()
-    .min(50, "title must be at least 50 characters")
-    .max(100, "tile must be less than 100 characters"),
+    .min(2, "title must be at least 50 characters")
+    .max(50, "tile must be less than 100 characters"),
 
 
      content: z
     .string()
-    .min(500, "content must be at least 500 characters")
-    .max(100, "content must be less than 100 characters"),
+    .min(2, "content must be at least 500 characters")
+    .max(500, "content must be less than 100 characters"),
 
 
 
