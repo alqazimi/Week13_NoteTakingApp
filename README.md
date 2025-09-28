@@ -26,7 +26,7 @@
    npm install
    npm run dev
    ```
-6. Create a new branch: git checkout -b `<firstName-lastName>`. Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+6. Create a new branch: . Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 7. Push commits: git push origin `<firstName-lastName>`.
 
 ### Task 2: MVP
